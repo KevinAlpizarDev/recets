@@ -1,0 +1,72 @@
+
+
+.provinces{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+  height: 60px;
+  
+  width: 100%;
+  background-color: rgb(138, 126, 126);
+  padding: 20px;
+  position: absolute;
+
+}
+
+.provinces:hover{
+
+
+}
+
+.provinces-2{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+float: right;
+
+  margin-top: 30px;
+  height: 60px;
+  width: 100%;
+background-color: white;
+  padding: 20px;
+  position: absolute;
+  
+}
+.provinces-2:hover{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-top: 30px;
+  height: 60px;
+  width: 30%;
+
+  padding: 20px;
+  position: absolute;
+  transition-duration: 2000ms, 1000ms;
+  transition-timing-function: ease-out;
+  animation-fill-mode: forwards;
+  
+}
+
+.provinces-2 span{
+  height: 60px;
+  background-color: #007bff;
+}
+
+.provinces-3{
+
+margin-left: 20%;
+
+  margin-top: 30px;
+  height: 60px;
+  width: 80%;
+background-color: transparent;
+  padding: 20px;
+  position: absolute;
+/* TRANSPARENTE 
+filter:alpha(opacity=50);
+ opacity:0.5; */
+
+}
+
